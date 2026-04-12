@@ -1,0 +1,74 @@
+h1 {
+    background-color: blanchedalmond;
+}
+
+h3 {
+    background-image: url(https://i.pinimg.com/736x/05/1b/fb/051bfb8f83da47de03055168c8e85a02.jpg);
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav ul li {
+    display: inline; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px; 
+    background-color: blanchedalmond;
+    border-radius: 50px;
+}
+
+nav ul li a:hover {
+    background-color: blanchedalmond; 
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-papel-textura-vintage_53876-124393.jpg?semt=ais_hybrid&w=740&q=80); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 100px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: blanchedalmond; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 500px; 
+    height: 350px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.card img {
+    width: 100%; 
+    height: auto;  
+    max-height: 250px; 
+    object-fit: cover; 
+}
+
+.card-content {
+    padding: 15px; 
+}
+
+.card-content p {
+    margin: 0; 
+}
