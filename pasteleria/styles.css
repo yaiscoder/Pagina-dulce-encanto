@@ -1,9 +1,11 @@
 h1 {
     background-color: blanchedalmond;
+    text-align: center;
 }
 
 h3 {
     background-image: url(https://i.pinimg.com/736x/05/1b/fb/051bfb8f83da47de03055168c8e85a02.jpg);
+    text-align: center;
 }
 
 nav ul {
@@ -28,16 +30,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: blanchedalmond; 
+    background-color: rgb(58, 35, 0); 
 }
 
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    text-align: center;
     background-image: url(https://img.freepik.com/foto-gratis/fondo-papel-textura-vintage_53876-124393.jpg?semt=ais_hybrid&w=740&q=80); 
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
+    text-align: center;
 }
 
 .card-container {
@@ -62,7 +64,7 @@ body {
     width: 100%; 
     height: auto;  
     max-height: 250px; 
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .card-content {
@@ -72,3 +74,19 @@ body {
 .card-content p {
     margin: 0; 
 }
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #050505; 
+    color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-decoration: none;
+}
+
+.boton:hover {
+    transform: scale(1.05); /* Cambié el valor a 1.05 para un efecto más sutil */
+}
+
+/* Eliminando estilos de alineación por ID */
