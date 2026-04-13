@@ -1,5 +1,5 @@
 h1 {
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
     text-align: center;
 }
 
@@ -40,6 +40,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .card-container {
@@ -90,3 +92,141 @@ body {
 }
 
 /* Eliminando estilos de alineación por ID */
+
+/* Pagina de productos */
+
+#productos{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.postre-card{
+    background: rgb(243, 218, 194);
+    width: 400px;
+    padding: 0.5%;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1%;
+}
+
+.postre-card img{
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    font-size: xx-large;
+    background-color: #ffebcd;
+    border-radius: 20px;
+}
+
+article p{
+    font-size: 30px;
+    background-color: #ffebcd;
+    border-radius: 20px;
+}
+
+.boton-pagar{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #cea46e; /* rosado bonito */
+    color: #050505;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.boton-pagar:hover{
+    background-color: #be863d;
+    color: aliceblue;
+}
+
+.postre-card:hover{
+    background-color: #f0c38a;
+    transition: 0.2s;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px gray;
+}
+
+.copy {
+    font-size: 30px;
+    background-color: #ffebcd;
+    text-align: center;
+}
+
+.regresar{
+    display: inline-block;
+    padding: 10px; 
+    background-color: #be863d; 
+    color: #050505; 
+    border-radius: 5px;  
+    text-decoration: none;
+}
+
+.regresar:hover{
+    background-color: #cea46e;
+    color: aliceblue;
+}
+
+/* Pagina de contacto */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 25%;
+}
+
+.boton-contacto{
+    text-decoration: none;
+    background-color: #b38c5a;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.boton-contacto:hover{
+    background-color: #cea46e;
+    transform: scale(1.5);
+}
+
+#formulario{
+    display: flex;
+    align-items: flex-end;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #f6ab64;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
