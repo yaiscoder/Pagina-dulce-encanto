@@ -232,17 +232,17 @@ button{
 }
 
 .carta{
-    display:inline-block;
+    display: inline-block;
     background-color: blanchedalmond; 
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     width: 500px; 
-    height: 350px;  
+    height: 200px;  
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 100px;
+    text-align:center;
 }
 
 
