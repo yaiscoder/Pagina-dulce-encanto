@@ -230,3 +230,25 @@ button{
     border-radius: 25px;
     cursor: pointer;
 }
+
+.carta{
+    display:inline-block;
+    background-color: blanchedalmond; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 500px; 
+    height: 350px;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.quien{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    margin-left: 450px;
+ }
