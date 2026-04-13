@@ -4,7 +4,7 @@ h1 {
 }
 
 h3 {
-    background-image: url(https://i.pinimg.com/736x/05/1b/fb/051bfb8f83da47de03055168c8e85a02.jpg);
+    background-image: url("imagenes/beautiful-brown-color-gradient-background-free-vector.jpg");
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ nav ul li a:hover {
 
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-papel-textura-vintage_53876-124393.jpg?semt=ais_hybrid&w=740&q=80); 
+    background-image: url(imagenes/beautiful-brown-color-gradient-background-free-vector.jpg); 
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -52,14 +52,15 @@ body {
 }
 
 .card {
-    background-color: blanchedalmond; 
+    background-color: rgb(12, 12, 12); 
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
-    width: 500px; 
-    height: 350px; 
+    width: 1000px; 
+    height: 400px; 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    color: aliceblue; 
 }
 
 .card img {
@@ -288,4 +289,8 @@ button{
 .fuente{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+}
+.fondopastel{
+    background-image: url(imagenes/1760435287-best-yule-log-morrisons-lifestyle-68ee1c3314bac.jpg);
+
 }
