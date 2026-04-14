@@ -1,0 +1,149 @@
+/* Pagina de productos */
+
+/* Encabezado */
+h1 {
+    background-color: #ffebcd;
+    text-align: center;
+}
+
+h3 {
+    background-image: url("imagenes/beautiful-brown-color-gradient-background-free-vector.jpg");
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav ul li {
+    display: inline; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px; 
+    background-color: blanchedalmond;
+    border-radius: 50px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(58, 35, 0); 
+}
+
+/* Color fondo*/
+.cuerpo-servicio{
+    background-color: #e7d1af;
+}
+
+/* Tarjetas de productos */
+#productos{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.postre-card{
+    background: rgb(243, 218, 194);
+    width: 400px;
+    padding: 0.5%;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1%;
+}
+
+.postre-card img{
+    width: 250px;
+    height: 250px;
+}
+
+h2{
+    font-size: xx-large;
+    background-color: #ffebcd;
+    border-radius: 20px;
+}
+
+article p{
+    font-size: 30px;
+    background-color: #ffebcd;
+    border-radius: 20px;
+}
+
+.boton-pagar{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #cea46e; /* rosado bonito */
+    color: #050505;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.boton-pagar:hover{
+    background-color: #be863d;
+    color: aliceblue;
+}
+
+.postre-card:hover{
+    background-color: #f0c38a;
+    transition: 0.2s;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px gray;
+}
+
+/* Copyright */
+.copy {
+    font-size: 30px;
+    background-color: #ffebcd;
+    text-align: center;
+}
+
+/* Regresar al portafolio */
+
+.regresar{
+    display: inline-block;
+    padding: 10px; 
+    background-color: #be863d; 
+    color: #050505; 
+    border-radius: 5px;  
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+.regresar:hover{
+    background-color: #cea46e;
+    color: aliceblue;
+}
+
+/* Regresar arriba */
+.subir {
+ 
+    position: fixed;
+    bottom: 20px;   
+    right: 20px;     
+    z-index: 1000;   
+
+    /* Estilo de círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    
+
+    background-color: #f3af78; 
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+}
