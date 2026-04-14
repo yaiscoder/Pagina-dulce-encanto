@@ -152,3 +152,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Copyright */
+
+.copy {
+    font-size: 30px;
+    background-color: #ffebcd;
+    text-align: center;
+}
