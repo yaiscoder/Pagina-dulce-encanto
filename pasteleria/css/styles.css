@@ -92,8 +92,6 @@ body {
     transform: scale(1.05); /* Cambié el valor a 1.05 para un efecto más sutil */
 }
 
-/* Eliminando estilos de alineación por ID */
-
 
 .carta{
     display: inline-block;
